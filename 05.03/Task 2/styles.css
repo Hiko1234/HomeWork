@@ -1,0 +1,39 @@
+.wrapper {
+  max-width: 800px;
+  height: 250px;
+  display: flex;
+  position: relative;
+}
+.wrapper:hover .box-one {
+  transform: rotateY(60deg);
+}
+.wrapper:hover .box-two {
+  transform: rotateY(60deg);
+}
+
+.box {
+  width: calc(50% - 2px);
+  height: 100%;
+  border: 1px solid #572a00;
+  transition: 0.5s;
+}
+
+.box-one {
+  background: linear-gradient(92.95deg, #af5400 0.82%, #FF902B 96.47%);
+}
+
+.box-two {
+  background: linear-gradient(92.95deg, #FF902B 0.82%, #af5400 96.47%);
+}
+
+.text {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}/*# sourceMappingURL=styles.css.map */
