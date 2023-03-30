@@ -329,6 +329,8 @@ body {
 }
 .main .messanges {
   width: 800px;
+}
+.main .messanges__wrapper {
   display: flex;
   gap: 15px;
   min-height: calc(100vh - 200px);
